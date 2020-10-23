@@ -47,6 +47,7 @@ jobs:
     #    uses a compiled language
     - run: 
        chmod +x ./gradlew 
+    - run:
        ./gradlew build
     #- run: |
     #   make bootstrap
