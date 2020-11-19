@@ -21,3 +21,6 @@ jobs:
       run: chmod +x ./gradlew 
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Insider Action
+      uses: insidersec/insider-action@v0.2.0
+
